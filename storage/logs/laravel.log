@@ -631,3 +631,19 @@
 #35 D:\\SEKOLAH\\laravel-sb-admin-2\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #36 {main}
 "} 
+[2024-09-10 01:46:49] local.ERROR: Command "erve" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"erve\" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve at D:\\SEKOLAH\\laravel-sb-admin-2\\vendor\\symfony\\console\\Application.php:702)
+[stacktrace]
+#0 D:\\SEKOLAH\\laravel-sb-admin-2\\vendor\\symfony\\console\\Application.php(258): Symfony\\Component\\Console\\Application->find('erve')
+#1 D:\\SEKOLAH\\laravel-sb-admin-2\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\SEKOLAH\\laravel-sb-admin-2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\SEKOLAH\\laravel-sb-admin-2\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
